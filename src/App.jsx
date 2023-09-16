@@ -1,13 +1,16 @@
-import { useState } from 'react'
+
 import './App.css'
+import Header from './component/Header/header'
+// import Cards from './component/Cards/cards'
+import Cards from './component/cards/cards'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <Header></Header>
+      <Cards></Cards>
       
-      <h1 className='text-5xl'>PH Course Registration</h1>
       
       
     </>
