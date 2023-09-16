@@ -22,7 +22,7 @@ function Cards() {
         let totalCredit = card.credit;
         let totalPrize = card.prize;
         if (isExist) {
-            return alert ('Already added');
+            return alert ('Already added this course !!!');
         }
         else{
             selectedCards.forEach((item)=> {
@@ -33,7 +33,7 @@ function Cards() {
             // console.log(totalPrize);
             const totalRemainingCredit = 20 - totalCredit;
             if (totalCredit > 20) {
-                return alert ("Oops !!! You haven't enough remaining hour");
+                return alert ("Oops !!! You haven't enough remaining hour !");
             }
             else {
                 setTotalCredit(totalCredit);
