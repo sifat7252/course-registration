@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "cover_img": "https://i.ibb.co/RbtnBfS/Rectangle-2.png",
-        "course_name": "Introduction to Programming",
-        "course_details": "Learn the basics of programming with this introductory course.",
+        "cover_img": "https://i.ibb.co/pvgQF8Y/Rectangle-2-3.png",
+        "course_name": "Introduction to Algorithms",
+        "course_details": "Learn the basics of algorithms with this introductory course.",
         "prize": 49.99,
         "credit": 3
     },
     {
         "id": 2,
         "cover_img": "https://i.ibb.co/pbSYqSB/Rectangle-2-1.png",
-        "course_name": "Web Development Fundamentals",
+        "course_name": "Introduction to Database (MySQL)",
         "course_details": "Build your foundation in web development with HTML, CSS, and JavaScript.",
         "prize": 79.99,
         "credit": 4
@@ -18,56 +18,56 @@
     {
         "id": 3,
         "cover_img": "https://i.ibb.co/j54vNdP/Rectangle-2-2.png",
-        "course_name": "Data Science Essentials",
+        "course_name": "Basic of C Programming",
         "course_details": "Explore the world of data science and machine learning.",
         "prize": 99.99,
         "credit": 5
     },
     {
         "id": 4,
-        "cover_img": "https://i.ibb.co/pvgQF8Y/Rectangle-2-3.png",
-        "course_name": "Digital Marketing Basics",
-        "course_details": "Learn the fundamentals of digital marketing and SEO.",
+        "cover_img": "https://i.ibb.co/RbtnBfS/Rectangle-2.png",
+        "course_name": "Introduction to OOP Python",
+        "course_details": "Learn the fundamentals of OOP PYthon for increase your programming.",
         "prize": 59.99,
         "credit": 3
     },
     {
         "id": 5,
         "cover_img": "https://i.ibb.co/2nZxnW0/Rectangle-2-4.png",
-        "course_name": "Graphic Design Fundamentals",
-        "course_details": "Master the art of graphic design with this introductory course.",
+        "course_name": "Introduction to C++ for DSA",
+        "course_details": "Master the art of C++ with this introductory course by using that.",
         "prize": 69.99,
         "credit": 4
     },
     {
         "id": 6,
         "cover_img": "https://i.ibb.co/XCXsmRX/Rectangle-2-5.png",
-        "course_name": "Mobile App Development",
-        "course_details": "Create your own mobile apps for iOS and Android.",
+        "course_name": "Software Engineering",
+        "course_details": "Create your own mobile apps for iOS and Android by using engineering.",
         "prize": 89.99,
         "credit": 5
     },
     {
         "id": 7,
         "cover_img": "https://i.ibb.co/D5gXB3s/Rectangle-2-6.png",
-        "course_name": "Financial Planning 101",
-        "course_details": "Learn the basics of personal finance and investment.",
+        "course_name": "Problem Solving part",
+        "course_details": "Learn the basics of problem solving for the next generation.",
         "prize": 49.99,
         "credit": 3
     },
     {
         "id": 8,
         "cover_img": "https://i.ibb.co/cxdcs71/Rectangle-3.png",
-        "course_name": "Artificial Intelligence Fundamentals",
-        "course_details": "Dive into the world of AI and machine learning.",
+        "course_name": "Data Structure Fundamentals",
+        "course_details": "Dive into the world of AI and machine learning with data structure fundamentals.",
         "prize": 79.99,
         "credit": 4
     },
     {
         "id": 9,
         "cover_img": "https://i.ibb.co/mXp05jr/Rectangle-3-1.png",
-        "course_name": "Cybersecurity Basics",
-        "course_details": "Protect yourself and your organization from cyber threats.",
+        "course_name": "AWS, Cloud Computing",
+        "course_details": "Protect yourself and your organization from cyber threats by using data clouding.",
         "prize": 69.99,
         "credit": 4
     }
