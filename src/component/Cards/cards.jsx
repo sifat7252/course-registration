@@ -5,6 +5,9 @@ import Carts from '../Carts/carts';
 function Cards() {
     const [allCards, setAllCards] = useState([]);
     const [selectedCards, setSelectedCards] = useState([]);
+    const [totalCredit, setTotalCredit] = useState(0);
+    const [totalRemainingCredit, setTotalRemainingCredit] = useState(0);
+    const [totalPrize, setTotalPrize] = useState(0);
 
     useEffect(() => {
         fetch('course-data.json')
@@ -14,8 +17,34 @@ function Cards() {
 
     const handleSelectBtn = (card) => {
         // console.log(card)
+        const isExist = selectedCards.find((item)=> item.id == card.id );
+
+        let totalCredit = card.credit;
+        let totalPrize = card.prize;
+        if (isExist) {
+            return alert ('Already added');
+        }
+        else{
+            selectedCards.forEach((item)=> {
+                
+                totalCredit = totalCredit + item.credit;
+                totalPrize = totalPrize + item.prize;
+            })
+            // console.log(totalPrize);
+            const totalRemainingCredit = 20 - totalCredit;
+            if (totalCredit > 20) {
+                return alert ("Oops !!! You haven't enough remaining hour");
+            }
+            else {
+                setTotalCredit(totalCredit);
+                setTotalRemainingCredit(totalRemainingCredit);
+                // console.log(totalCredit);
+                setSelectedCards([...selectedCards, card]);
+                setTotalPrize(totalPrize);
+            }
+           
+        }
         // console.log(selectedCards)
-        setSelectedCards([...selectedCards, card]);
     };
     // console.log(selectedCards);
 
@@ -45,7 +74,10 @@ function Cards() {
             </div>
             <div className="carts-container w-3/12 ">
                 <Carts 
-                selectedCards={selectedCards}>                    
+                selectedCards={selectedCards}
+                totalCredit={totalCredit}
+                totalRemainingCredit={totalRemainingCredit}
+                totalPrize={totalPrize}>                    
                 </Carts>
             </div>
         </div>
