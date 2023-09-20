@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Cards></Cards>
-      
+      <Cards></Cards>     
       
       
     </>
